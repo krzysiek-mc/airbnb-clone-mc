@@ -16,7 +16,7 @@ jobs:
       - name: Expo CLI install
         run: npm install -g expo-cli
       - name: Yarn install
-        run: yarn install  
+        run: yarn install
       - name: Run Expo Doctor
         run: expo-cli doctor
         continue-on-error: false
