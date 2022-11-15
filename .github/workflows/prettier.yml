@@ -22,6 +22,6 @@ jobs:
         run: |
           yarn install
 
-      - name: Run ESLint
+      - name: Run Prettier Check
         run: npx prettier --check .
         continue-on-error: true
