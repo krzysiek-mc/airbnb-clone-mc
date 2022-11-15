@@ -16,5 +16,5 @@ jobs:
       - name: Yarn install
         run: yarn install
       - name: Run Expo Doctor
-        run: npx expo doctor
+        run: expo doctor
         continue-on-error: false
