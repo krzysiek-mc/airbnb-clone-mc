@@ -1,0 +1,20 @@
+name: Expo Doctor
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  expo_doctor:
+    name: Run Expo Doctor scanning
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Yarn install
+        run: yarn install
+      - name: Run Expo Doctor
+        run: expo doctor
+        continue-on-error: false
