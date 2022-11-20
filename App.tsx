@@ -1,11 +1,17 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
+import Header from "./src/components/Header/Header";
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Header text="Hello" />
+      <Text>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur, quisquam accusamus
+        laborum, quaerat beatae laboriosam cumque tempore delectus minus, libero voluptatum nesciunt
+        quia cum consequatur. Saepe nulla magni ratione?
+      </Text>
       <StatusBar style="auto" />
     </View>
   );
