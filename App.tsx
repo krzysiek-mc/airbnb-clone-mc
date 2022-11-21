@@ -6,7 +6,7 @@ const App: FC<{ id: string }> = ({ id }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>HELLO</Text>
-      <Text style={styles.desc}>Lorem ipsum...</Text>
+      <Text>Lorem ipsum...</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -24,5 +24,4 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
   },
-  desc: {},
 });
