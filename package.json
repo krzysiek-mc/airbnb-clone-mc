@@ -7,7 +7,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "linter": "pretty-quick --staged"
   },
   "dependencies": {
     "@expo/webpack-config": "^0.17.2",
@@ -33,7 +34,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged"
+      "pre-commit": "pretty-quick --staged && yarn eslint ."
     }
   },
   "private": true
