@@ -8,8 +8,10 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "prepare": "husky install",
-    "linter": "pretty-quick --staged && yarn eslint .",
-    "expo-doctor": "expo-cli doctor"
+    "linter-prettier": "pretty-quick",
+    "linter-eslint": "yarn eslint .",
+    "tool-expo-doctor": "expo-cli doctor",
+    "linters": "yarn lint-prettier && yarn lint-eslint"
   },
   "dependencies": {
     "@expo/webpack-config": "^0.17.2",

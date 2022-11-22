@@ -8,15 +8,19 @@ on:
 
 jobs:
   checks:
-    name: Run our checks
+    name: Linters & Expo Doctor
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      - name: Yarn install
+      - name: Install dependencies
         run: yarn install
-      - name: Run Prettier Check
-        run: yarn linter
+      - name: Run Prettier
+        run: yarn linter-prettier
+      - name: Run ESlint
+        run: yarn linter-eslint
+      - name: Install Expo CLI dependency
+        run: npm install -g expo-cli
       - name: Run Expo Doctor
         run: expo-cli doctor
 

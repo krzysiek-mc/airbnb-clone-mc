@@ -12,29 +12,37 @@ App is clone of AirBnb
 1. Install dependencies
 
 ```bash
-yarn install
+$ yarn install
+Install all dependencies
 ```
 
 1. DEBUGGING TOOLS
 
-* React Native Debugger (https://docs.expo.dev/workflow/debugging/#react-native-debugger)
+* React Native Debugger (<https://docs.expo.dev/workflow/debugging/#react-native-debugger>)
 
-1. Start dev server (follow instructions on screen)
+1. Start dev server
 
 ```bash
-yarn start
+$ yarn start
+Follow instructions on screen
 ```
 
 ## HOW TO TEST
 
-1. Linters (prettier, eslint)
+1. Linters
 
 ```bash
-yarn linter
+$ yarn linter-prettier
+Run prettier check
+$ yarn linter-eslint
+Run eslint check
+$ yarn linters
+Run both checks
 ```
 
-1. Expo Doctor
+1. Tools
 
 ```bash
-yarn expo-doctor
+$ yarn tool-expo-doctor
+Run expo doctor
 ```
