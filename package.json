@@ -11,7 +11,7 @@
     "linter-prettier": "pretty-quick",
     "linter-eslint": "yarn eslint .",
     "tool-expo-doctor": "expo-cli doctor",
-    "linters": "yarn lint-prettier && yarn lint-eslint"
+    "linters": "yarn linter-prettier && yarn linter-eslint"
   },
   "dependencies": {
     "@expo/webpack-config": "^0.17.2",
