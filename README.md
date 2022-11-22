@@ -16,3 +16,14 @@ $ yarn install
 ```bash
 $ yarn start
 ```
+
+# HOW TO TEST
+1. Linters (prettier, eslint)
+```bash
+yarn linter
+```
+
+2. Expo Doctor
+```bash
+yarn expo-doctor
+```
