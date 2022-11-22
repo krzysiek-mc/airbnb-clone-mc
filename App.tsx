@@ -2,7 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import { FC } from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-const App: FC<{ id: string }> = ({ id }) => {
+const App: FC<{ id: number; name: string }> = ({ id, name }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>HELLO</Text>

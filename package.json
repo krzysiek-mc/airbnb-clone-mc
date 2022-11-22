@@ -10,6 +10,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@expo/webpack-config": "^0.17.2",
     "expo": "~47.0.5",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",
