@@ -18,5 +18,5 @@ jobs:
       - name: Run Prettier Check
         run: yarn linter
       - name: Run Expo Doctor
-        run: yarn expo-doctor
+        run: expo-cli doctor
 
