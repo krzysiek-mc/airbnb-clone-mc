@@ -18,7 +18,7 @@ jobs:
       - name: Run Prettier
         run: yarn linter-prettier
       - name: Run ESlint
-        run: yarn eslint ${GITHUB_WORKSPACE}
+        run: yarn eslint ${GITHUB_WORKSPACE} --debug
       - name: Install Expo CLI dependency
         run: npm install -g expo-cli
       - name: Run Expo Doctor
