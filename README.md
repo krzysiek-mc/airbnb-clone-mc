@@ -15,6 +15,10 @@ App is clone of AirBnb
 yarn install
 ```
 
+1. DEBUGGING TOOLS
+
+* React Native Debugger (https://docs.expo.dev/workflow/debugging/#react-native-debugger)
+
 1. Start dev server (follow instructions on screen)
 
 ```bash
