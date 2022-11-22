@@ -5,7 +5,7 @@ import { StyleSheet, Text, View } from "react-native";
 const App: FC = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>HELLO ADAM</Text>
+      <Text style={styles.title}>HELLO</Text>
       <Text>Lorem ipsum...</Text>
       <StatusBar style="auto" />
     </View>
