@@ -2,28 +2,35 @@
 
 App is clone of AirBnb
 
-# DEPENDENCIES
+## DEPENDENCIES
+
 * node 16
 * yarn
 
-# HOW TO DEVELOP
+## HOW TO DEVELOP
+
 1. Install dependencies
+
 ```bash
-$ yarn install
+yarn install
 ```
 
-2. Start dev server (follow instructions on screen)
+1. Start dev server (follow instructions on screen)
+
 ```bash
-$ yarn start
+yarn start
 ```
 
-# HOW TO TEST
+## HOW TO TEST
+
 1. Linters (prettier, eslint)
+
 ```bash
 yarn linter
 ```
 
-2. Expo Doctor
+1. Expo Doctor
+
 ```bash
 yarn expo-doctor
 ```
