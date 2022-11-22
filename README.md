@@ -1,5 +1,18 @@
  How to run app:
 
-$git clone https://github.com/krzysiek-mc/airbnb-clone-mc
-$cd airbnb-clone-mc
-$yarn expo start
+install dependencies:
+    yarn
+
+run app in dev mode:
+    yarn expo start
+
+run app in production mode:
+    npx expo start --no-dev
+
+after running app:
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
