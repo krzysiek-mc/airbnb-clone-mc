@@ -1,12 +1,18 @@
 import { StatusBar } from "expo-status-bar";
-import { FC } from "react";
-import { StyleSheet, Text, View } from "react-native";
+import React, { FC } from "react";
+import { Button, StyleSheet, Text, View } from "react-native";
 
 const App: FC = () => {
+  const onPress = (value: string) => {
+    // set breakepoint here
+    console.log(value);
+  };
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>HELLO</Text>
       <Text>Lorem ipsum...</Text>
+      <Button title="Test button" onPress={() => onPress("TEST 1234")} />
       <StatusBar style="auto" />
     </View>
   );
