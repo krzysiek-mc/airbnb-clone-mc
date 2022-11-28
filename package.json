@@ -14,8 +14,11 @@
     "linters": "yarn linter-prettier && yarn linter-eslint"
   },
   "dependencies": {
+    "@expo/config-plugins": "^5.0.2",
+    "@expo/prebuild-config": "^5.0.5",
     "@expo/webpack-config": "^0.17.2",
-    "expo": "~47.0.5",
+    "expo": "~47.0.8",
+    "expo-modules-autolinking": "~1.0.0",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",
     "react-dom": "18.1.0",
@@ -30,10 +33,16 @@
     "@typescript-eslint/parser": "^5.43.0",
     "eslint": "^8.27.0",
     "eslint-config-universe": "^11.1.1",
+    "expo-cli": "^6.0.8",
     "husky": "^8.0.2",
     "prettier": "^2.7.1",
     "pretty-quick": "^3.1.3",
     "typescript": "^4.6.3"
   },
-  "private": true
+  "private": true,
+  "resolutions": {
+    "expo-modules-autolinking": "~1.0.0",
+    "@expo/config-plugins": "^5.0.2",
+    "@expo/prebuild-config": "^5.0.5"
+  }
 }
