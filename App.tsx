@@ -1,27 +1,9 @@
-import { StatusBar } from "expo-status-bar";
 import { FC } from "react";
-import { StyleSheet, Text, View } from "react-native";
+
+import { RandomListOfItems } from "./RandomListOfItems";
 
 const App: FC = () => {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.title}>HELLO</Text>
-      <Text>Lorem ipsum...</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <RandomListOfItems />;
 };
 
 export default App;
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  title: {
-    fontSize: 24,
-  },
-});
